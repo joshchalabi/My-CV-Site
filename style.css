@@ -1,0 +1,282 @@
+/* General Style */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: #e0e0e0;
+    padding-top: 50px;
+}
+
+/* Header */
+header {
+    background: #1e1e1e;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    font-size: 16px;
+    color: #b0b0b0;
+}
+
+/* Navbar */
+nav {
+    background: #1b1b1b;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom: 2px solid #3a3a3a;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #66ff99;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+/* Sections */
+section {
+    background: #1b1b1b;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+   
+    border: 1px solid #333;
+}
+
+section h2 {
+    color: #66ff99;
+    border-bottom: 2px solid #66ff99;
+    padding-bottom: 5px;
+}
+
+/* Profile */
+.profile {
+   
+}
+
+.profile img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 10px auto;
+    display: block;
+    border: 2px solid #66ff99;
+}
+
+/* Skillset */
+.skill {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin-bottom: 10px;
+}
+
+.stars {
+    font-size: 18px;
+    color: #66ff99;
+    margin-right: 10px;
+}
+
+.skill p {
+    margin: 0;
+    color: #ffffff;
+}
+
+/* Progress bar */
+.progress {
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    height: 100%;
+    background-color: #66ff99;
+    text-align: center;
+    line-height: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #66ff99;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+/* Terminal Style Text */
+.terminal-text {
+    font-family: "Courier New", monospace;
+    color: #66ff99;
+    background-color: #1e1e1e;
+    padding: 5px;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+/* Hobby */
+.hobbies {
+    background: #222;
+    text-align: center;
+    border: 1px solid #3a3a3a;
+}
+
+.hobbies p {
+    font-size: 18px;
+    color: #e0e0e0;
+}
+
+/* Contact Form */
+
+#contact-form form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 500px;
+    margin: auto;
+}
+
+#contact-form input, #contact-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #66ff99;
+    background-color: #222;
+    color: #ffffff;
+}
+
+#contact-form button {
+    background-color: #66ff99;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#contact-form button:hover {
+    background-color: #55dd88;
+}
+
+/* Download CV */
+
+.cv-download-container {
+    display: flex;
+    justify-content: center; /* Yatayda ortala */
+    align-items: center; /* Dikeyde ortala */
+    margin-top: 20px; /* Üst boşluk */
+}
+
+#downloadCV {
+    background-color: #66ff99; /* Siber güvenlik temasına uygun yeşil ton */
+    color: black;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #55dd88;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+#downloadCV:hover {
+    background-color: #55dd88;
+    color: white;
+    box-shadow: 0px 0px 10px #66ff99;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    border-top: 2px solid #3a3a3a;
+}
+
+footer p {
+    color: #b0b0b0;
+    font-size: 16px;
+}
+
+.linkedin-button {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #0077b5; /* LinkedIn Blue */
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+.linkedin-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.linkedin-button:hover {
+    background-color: #005582;
+}
+
+
+/* Mobile Compatible */
+@media (max-width: 600px) {
+    section {
+        width: 90%;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    header p {
+        font-size: 16px;
+    }
+}
