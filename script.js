@@ -32,6 +32,6 @@ document.getElementById("messageForm").addEventListener("submit", function(event
 });
 
 document.getElementById("downloadCV").addEventListener("click", function() {
-    window.location.href = "files/JoshCV.docx"; //  // 'JoshCV.docx' Open
+    window.location.href = "files/JoshCV.pdf"; //  // 'JoshCV.pdf' Open
 });
 
